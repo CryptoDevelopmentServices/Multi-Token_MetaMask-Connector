@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name = "keywords" content = "Crypto, CDS, Crypto Development Services, cds, Wrapped NewYorkCoin, WNYC, Wrapped NestEGG Coin, WEGG, MetaMask" />
+    <meta name = "keywords" content = "Crypto, CDS, Crypto Development Services, cds, Wrapped NewYorkCoin, WNYC, Wrapped NestEGG Coin, WEGG, YieldFields, FIELDS, Tokens, MetaMask" />
     <meta name = "description" content = "Crypto Development Services Multi Token Connector for MetaMask" />
 	  
     
@@ -12,7 +12,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.cryptodevservices.com/" />
     <meta property="og:image" content="https://www.cryptodevservices.com/images/favicon/favicon.png" />
-    <meta property="og:description" content="This Connector Adds the BSC mainnet to metamask if you don't already have it along with Crypto Development Services, Wrapped NestEGG Coin, Wrapped NewYorkCoin and logos" />
+    <meta property="og:description" content="This Connector Adds the BSC mainnet to metamask if you don't already have it along with Crypto Development Services, Wrapped NestEGG Coin, Wrapped NewYorkCoin, YieldField Token and logos" />
 
     <title>Crypto Development Services Multi Token Metamask Connector</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
@@ -44,7 +44,7 @@
                             <div class="list-steps__item-divider"></div>
                             <div class="list-steps__item-main">
                               <h4><a href="#">MetaMask one click and add</a></h4>
-                                <button class="connectMetaMask">Enable Binance Smart Chain & Add CDS, WEGG & WNYC</button>
+                                <button class="connectMetaMask">Enable Binance Smart Chain & Add CDS, WEGG, WNYC & FIELD</button>
                             </div>
                           </li>
                         </ul>

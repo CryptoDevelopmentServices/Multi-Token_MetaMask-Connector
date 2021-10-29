@@ -16,6 +16,11 @@ const tokenSymbol1 = 'WNYC';
 const tokenDecimals1 = 18;
 const tokenImage1 = 'https://i.imgur.com/J53IJI7.png';
 
+const tokenAddress2 = '0x04D50c032F16a25d1449Ef04D893e95Bcc54d747';
+const tokenSymbol2 = 'FIELD';
+const tokenDecimals2 = 18;
+const tokenImage2 = 'https://i.imgur.com/FMPqNWo.png';
+
 /** Connect to Crypto Development Services and the BSC mainnet network */
 const setupBinanceSmartChain = async () => {
   /** In case we need to throw an error, let's grab the error modal & error message */
@@ -73,6 +78,17 @@ const setupBinanceSmartChain = async () => {
           symbol: tokenSymbol1, // A ticker symbol or shorthand, up to 5 chars.
           decimals: tokenDecimals1, // The number of decimals in the token
           image: tokenImage1, // A string url of the token logo
+        },
+      },
+     })
+     await provider.request({ method: 'wallet_watchAsset',
+      params: {
+        type: 'ERC20', // Initially only supports ERC20, but eventually more!
+        options: {
+          address: tokenAddress2, // The address that the token is at.
+          symbol: tokenSymbol2, // A ticker symbol or shorthand, up to 5 chars.
+          decimals: tokenDecimals2, // The number of decimals in the token
+          image: tokenImage2, // A string url of the token logo
         },
       },
      })
