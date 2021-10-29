@@ -6,20 +6,20 @@ const tokenSymbol = 'CDS';
 const tokenDecimals = 8;
 const tokenImage = 'https://i.imgur.com/ZXf2SKw.png';
 
-const tokenAddress0 = '0xEACc57176C0Dbe53E50e7b2Ff73b32D354A4ef01';
-const tokenSymbol0 = 'WEGG';
-const tokenDecimals0 = 18;
-const tokenImage0 = 'https://i.imgur.com/ho7gXX9.png';
-
-const tokenAddress1 = '0x6c015277b0f9b8c24b20bd8bbbd29fdb25738a69';
-const tokenSymbol1 = 'WNYC';
+const tokenAddress1 = '0xEACc57176C0Dbe53E50e7b2Ff73b32D354A4ef01';
+const tokenSymbol1 = 'WEGG';
 const tokenDecimals1 = 18;
-const tokenImage1 = 'https://i.imgur.com/J53IJI7.png';
+const tokenImage1 = 'https://i.imgur.com/ho7gXX9.png';
 
-const tokenAddress2 = '0x04D50c032F16a25d1449Ef04D893e95Bcc54d747';
-const tokenSymbol2 = 'FIELD';
+const tokenAddress2 = '0x6c015277b0f9b8c24b20bd8bbbd29fdb25738a69';
+const tokenSymbol2 = 'WNYC';
 const tokenDecimals2 = 18;
-const tokenImage2 = 'https://i.imgur.com/FMPqNWo.png';
+const tokenImage2 = 'https://i.imgur.com/J53IJI7.png';
+
+const tokenAddress0 = '0x04D50c032F16a25d1449Ef04D893e95Bcc54d747';
+const tokenSymbol0 = 'FIELD';
+const tokenDecimals0 = 18;
+const tokenImage0 = 'https://i.imgur.com/FMPqNWo.png';
 
 /** Connect to Crypto Development Services and the BSC mainnet network */
 const setupBinanceSmartChain = async () => {
