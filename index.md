@@ -34,11 +34,12 @@
      </button>
      <div class="collapse navbar-collapse" id="navbarNavDropdown">
        <ul class="navbar-nav">
+         
          <li class="nav-item">
-           <a class="nav-link"  target="_blank" href="https://cryptodevservices.com/">CDS Website</a>
-         </li>
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
          <li class="nav-item">
-          <a class="nav-link"  target="_blank" href="prices.html">Prices</a>
+          <a class="nav-link" href="prices.html">Prices</a>
         </li>
          <li class="nav-item">
           <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/issues">Issues</a>
@@ -48,7 +49,11 @@
         </li>
         <li class="nav-item">
           <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/network/members">Forks</a>
-        </li>         
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link"  target="_blank" href="https://cryptodevservices.com/">CDS Website</a>
+        </li>
               
        </ul>
      </div>
