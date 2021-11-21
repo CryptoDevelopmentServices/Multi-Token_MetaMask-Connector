@@ -1,25 +1,33 @@
 const provider = window.ethereum;
 const BinanceSmartChainId = '0x38';
 
-const tokenAddress = '0x23f07a1c03e7c6d0c88e0e05e79b6e3511073fd5';
-const tokenSymbol = 'CDS';
+const tokenAddress = '0x3D42e635A7Ffa160D8Dd18a00c158D79984d003d';
+const tokenSymbol = 'BEET';
 const tokenDecimals = 8;
-const tokenImage = 'https://i.imgur.com/ZXf2SKw.png';
+const tokenImage = 'https://i.imgur.com/tkuPlkt.png';
 
-const tokenAddress1 = '0xEACc57176C0Dbe53E50e7b2Ff73b32D354A4ef01';
-const tokenSymbol1 = 'WEGG';
-const tokenDecimals1 = 18;
-const tokenImage1 = 'https://i.imgur.com/ho7gXX9.png';
+const tokenAddress1 = '0x23f07a1c03e7c6d0c88e0e05e79b6e3511073fd5';
+const tokenSymbol1 = 'CDS';
+const tokenDecimals1 = 8;
+const tokenImage1 = 'https://i.imgur.com/ZXf2SKw.png';
 
-const tokenAddress2 = '0x6c015277b0f9b8c24b20bd8bbbd29fdb25738a69';
-const tokenSymbol2 = 'WNYC';
+const tokenAddress2 = '0x04D50c032F16a25d1449Ef04D893e95Bcc54d747';
+const tokenSymbol2 = 'FIELD';
 const tokenDecimals2 = 18;
-const tokenImage2 = 'https://i.imgur.com/J53IJI7.png';
+const tokenImage2 = 'https://i.imgur.com/FMPqNWo.png';
 
-const tokenAddress0 = '0x04D50c032F16a25d1449Ef04D893e95Bcc54d747';
-const tokenSymbol0 = 'FIELD';
-const tokenDecimals0 = 18;
-const tokenImage0 = 'https://i.imgur.com/FMPqNWo.png';
+const tokenAddress3 = '0xEACc57176C0Dbe53E50e7b2Ff73b32D354A4ef01';
+const tokenSymbol3 = 'WEGG';
+const tokenDecimals3 = 18;
+const tokenImage3 = 'https://i.imgur.com/ho7gXX9.png';
+
+const tokenAddress4 = '0x6c015277b0f9b8c24b20bd8bbbd29fdb25738a69';
+const tokenSymbol4 = 'WNYC';
+const tokenDecimals4 = 18;
+const tokenImage4 = 'https://i.imgur.com/J53IJI7.png';
+
+
+
 
 /** Connect to Crypto Development Services and the BSC mainnet network */
 const setupBinanceSmartChain = async () => {
@@ -63,17 +71,6 @@ const setupBinanceSmartChain = async () => {
       params: {
         type: 'ERC20', // Initially only supports ERC20, but eventually more!
         options: {
-          address: tokenAddress0, // The address that the token is at.
-          symbol: tokenSymbol0, // A ticker symbol or shorthand, up to 5 chars.
-          decimals: tokenDecimals0, // The number of decimals in the token
-          image: tokenImage0, // A string url of the token logo
-        },
-      },
-     })
-     await provider.request({ method: 'wallet_watchAsset',
-      params: {
-        type: 'ERC20', // Initially only supports ERC20, but eventually more!
-        options: {
           address: tokenAddress1, // The address that the token is at.
           symbol: tokenSymbol1, // A ticker symbol or shorthand, up to 5 chars.
           decimals: tokenDecimals1, // The number of decimals in the token
@@ -89,6 +86,28 @@ const setupBinanceSmartChain = async () => {
           symbol: tokenSymbol2, // A ticker symbol or shorthand, up to 5 chars.
           decimals: tokenDecimals2, // The number of decimals in the token
           image: tokenImage2, // A string url of the token logo
+        },
+      },
+     })
+     await provider.request({ method: 'wallet_watchAsset',
+      params: {
+        type: 'ERC20', // Initially only supports ERC20, but eventually more!
+        options: {
+          address: tokenAddress3, // The address that the token is at.
+          symbol: tokenSymbol3, // A ticker symbol or shorthand, up to 5 chars.
+          decimals: tokenDecimals3, // The number of decimals in the token
+          image: tokenImage3, // A string url of the token logo
+        },
+      },
+     })
+     await provider.request({ method: 'wallet_watchAsset',
+      params: {
+        type: 'ERC20', // Initially only supports ERC20, but eventually more!
+        options: {
+          address: tokenAddress4, // The address that the token is at.
+          symbol: tokenSymbol4, // A ticker symbol or shorthand, up to 5 chars.
+          decimals: tokenDecimals4, // The number of decimals in the token
+          image: tokenImage4, // A string url of the token logo
         },
       },
      })

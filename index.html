@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name = "keywords" content = "Crypto, CDS, Crypto Development Services, cds, Wrapped NewYorkCoin, WNYC, Wrapped NestEGG Coin, WEGG, YieldFields, FIELDS, Tokens, MetaMask" />
+    <meta name = "keywords" content = "Crypto, CDS, Crypto Development Services, cds, Wrapped NewYorkCoin, WNYC, Wrapped NestEGG Coin, WEGG, YieldFields, FIELDS, Beetlecoin, BEET, Tokens, MetaMask" />
     <meta name = "description" content = "Crypto Development Services Multi Token Connector for MetaMask" />
 	  
     
@@ -44,8 +44,9 @@
                             <div class="list-steps__item-divider"></div>
                             <div class="list-steps__item-main">
                               <h4><a href="#">MetaMask one click and add</a></h4>
-                                <button class="connectMetaMask">Enable Binance Smart Chain & Add CDS, WEGG, WNYC & FIELD</button>
+                                <button class="connectMetaMask">Enable Binance Smart Chain & Add BEET, CDS, ,WEGG& WNYC  FIELD</button>
                                 <p>Supported coins</p>
+                                <a href="https://discord.gg/85QUY2dHeN"><img src="img/beet.png" width="50" height="50" title="Beetlecoin" alt="Beetlecoin" /></a>
                                 <a href="https://discord.gg/xUZNT9Zzcp"><img src="img/cds.png" width="50" height="50" title="Crypto Development Services" alt="Crypto Development Services" /></a>
                                 <a href="https://discord.gg/xUZNT9Zzcp"><img src="img/fields.png" width="50" height="50" title="YieldFields Token" /></a>
                                 <a href="https://discord.gg/srWqAfhFPB"><img src="img/wegg.png" width="50" height="50" title="Wrapped NestEGG Coin" /></a>
