@@ -26,6 +26,30 @@
     <link rel="icon" href="img/favicon.ico" type="image/ico">
   </head>
   <body>
+    <!--********************Nav Bar******************************-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <a class="navbar-brand" href="#">Navbar</a>-->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+       <ul class="navbar-nav">
+         <li class="nav-item">
+           <a class="nav-link"  target="_blank" href="https://cryptodevservices.com/">CDS Website</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/issues">Submit an issue</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/pulls">Submit an pull request</a>
+        </li>
+         
+           
+              
+       </ul>
+     </div>
+   </nav>
+   <!--********************Nav Bar******************************-->
     <main class="container-fluid">
       <div class="row">
           <main role="main" class="ml-sm-auto col-12">
