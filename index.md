@@ -38,6 +38,9 @@
            <a class="nav-link"  target="_blank" href="https://cryptodevservices.com/">CDS Website</a>
          </li>
          <li class="nav-item">
+          <a class="nav-link"  target="_blank" href="prices.html">Prices</a>
+        </li>
+         <li class="nav-item">
           <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/issues">Issues</a>
         </li>
         <li class="nav-item">
