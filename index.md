@@ -27,7 +27,7 @@
   </head>
   <body>
     <!--********************Nav Bar******************************-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <!-- <a class="navbar-brand" href="#">Navbar</a>-->
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -38,13 +38,14 @@
            <a class="nav-link"  target="_blank" href="https://cryptodevservices.com/">CDS Website</a>
          </li>
          <li class="nav-item">
-          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/issues">Submit an issue</a>
+          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/issues">Issues</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/pulls">Submit an pull request</a>
+          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/pulls">Pull requests</a>
         </li>
-         
-           
+        <li class="nav-item">
+          <a class="nav-link"  target="_blank" href="https://github.com/CryptoDevelopmentServices/Multi-Token_MetaMask-Connector/network/members">Forks</a>
+        </li>         
               
        </ul>
      </div>
